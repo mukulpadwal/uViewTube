@@ -6,6 +6,8 @@ import { fetchFromApi } from "../utils/fetchFromApi";
 
 const Feed = () => {
 
+    const date = new Date();
+
     const [selectedCategory, setSelectedCategory] = useState('New');
     const [videos, setVideos] = useState([]);
 
@@ -45,7 +47,7 @@ const Feed = () => {
                 sx={{mt: 1.5, color: '#fff'}}
             >
                 {/* Typography is just a simple component used for all text elements */}
-                Copyright {2023} ViewTube
+                Copyright {date.getFullYear()} uViewTube
             </Typography>
         </Box>
 

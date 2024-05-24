@@ -27,7 +27,7 @@ Step 4 : npm install
 
 Step 5 : create .env file and copy the key from .env.example file
 
-Step 6 : npm run dev
+Step 6 : npm run start
 ```
 
 `Note : get your api key from here https://rapidapi.com/ytdlfree/api/youtube-v31`
